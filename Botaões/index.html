@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botões</title>
+</head>
+<body>
+    <!-- whtasapp -->
+    <a href="https://wa.me/55(seu numero)?text=Oi!%20Vim%20do%20site%20e%20desejo%20rece
+    ber%20atendimento" alt="Fale Conosco pelo WhatsApp" style="position:fixed;width:50px;height:50px;bottom:15px;right:15px;border-radius:50px;textalign:
+    center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    z-index:1000;" target="_blank">
+        <img src="https://cdn.awsli.com.br/1343/1343917/arquivos/whatsapp.svg" width="60" height="60"
+            alt="Fale Conosco pelo WhatsApp">
+    </a>
+    <!-- instagram -->  
+    <a href="https://www.instagram.com/seu_nickname/" alt="Siga nosso Instagram" style="position:fixed;width:50px;height:50px;bottom:75px;right:15px;border-radius:50px;textalign:
+    center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    z-index:1000;" target="_blank">
+        <img src="https://cdn.awsli.com.br/1343/1343917/arquivos/instagram.svg" width="60" height="60"
+            alt="Siga nosso Instagram">
+</a>
+</body>
+<!-- back-button -->
+<script type="text/javascript">
+$(document).ready(function(){
+ $("body").append("<a href='#' class='back-to-top'><i class='fa fa-arrow-circle-up' aria-hidden='true'></i></a>"),
+$(function toTop() {
+     $(window).scroll(function() {
+        $(this).scrollTop() > 400 ? $(".back-to-top").fadeIn() : $(".back-to-top").fadeOut()}), $(".back-to-top").click(function() {
+        return $("html, body").animate({
+            scrollTop: 0
+        }, 900), !1})});        
+    })
+</script>
+</html>
+

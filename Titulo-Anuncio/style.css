@@ -1,0 +1,10 @@
+.g_ .listagem .listagem-item .nome-produto {
+	font-size: var(--fs16);
+	color: var(--tc1);
+	display: list-item;
+	min-height: unset;
+	overflow: visible;
+	white-space: pre-line;
+	margin: 0px 0 5px 0;
+	font-weight: 50
+}

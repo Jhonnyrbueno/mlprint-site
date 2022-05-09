@@ -1,0 +1,16 @@
+.back-to-top {
+    color:black;
+    position: fixed;
+    z-index: 999;
+    bottom: 8rem;
+    right: 1.5rem;
+    display:none;
+}
+.back-to-top:active, .back-to-top:focus, .back-to-top:hover {
+    text-decoration: none;
+    color:#afb3b0;  
+}
+
+.back-to-top i {
+    font-size: 3em;
+}

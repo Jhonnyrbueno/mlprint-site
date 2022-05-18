@@ -1,0 +1,172 @@
+/*MENU*/
+
+.g_ .menu.superior>.nivel-um>li>a>strong {
+    font-size: var(--fs14);
+    font-weight: 500;
+    color: var(--tc1);
+    margin: 0;
+}
+
+.g_ .menu.superior>.nivel-um>li {
+    background: 0 0;
+    border: 0;
+    z-index: 1;
+    position: center;
+    padding: 1.5rem 0.5rem;
+}
+
+
+.menu a, .menu .titulo {
+    vertical-align: middle;
+}
+
+.menu a {
+    display: block;
+    white-space: -webkit-nowrap;
+}
+
+/* REMOVE CATEGORIA OUTROS */
+.categoria-outros {
+	display: none !important; 
+}
+/* FIM REMOVE CATEGORIA OUTROS */
+
+
+/*menu cointaner*/
+
+.g_ header {
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/*fim menu cointaner*/
+
+/*banner cheio*/
+
+.g_ .secao-banners .banner.cheio {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+/*fim banner cheio*/
+
+
+/*TITULO ANUNCIO*/
+
+.g_ header,
+.g_ .listagem .titulo-categoria {
+    margin: 0;
+}
+
+.g_ .listagem .listagem-item .nome-produto {
+	font-size: var(--fs16);
+	color: var(--tc1);
+	display: list-item;
+	min-height: unset;
+	overflow: visible;
+	white-space: pre-line;
+	margin: 0px 0 5px 0;
+	font-weight: 50
+}
+
+.g_ .cabecalho-interno .titulo {
+	font-weight: 100;
+	font-size: 26px;
+	color: var(--tc1);
+	margin-bottom: 1rem
+}
+
+.g_ .cabecalho-interno .titulo small {
+    display: block;
+    margin-top: 12px;
+}
+
+.carrinho-checkout .identificacao .control-group {
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-top: 3rem;
+}
+
+.info-produto {
+    padding: 0 0 2px 0 !important;
+    margin: 0 0 2px 0;
+}
+
+.g_ .listagem-item .acoes-produto a, .g_ .listagem-item .acoes-produto a:hover {
+    display: block;
+    margin: 0 20px;
+    line-height: 0;
+    height: auto;
+    border-radius: 3px;
+    padding: 1px 2px;
+    background: #FF0100;
+}
+
+.g_ .produto div.principal .qtde-adicionar-carrinho+.botao.principal.botao-comprar {
+    width: calc(75% - (88px + var(--gutter)));
+}
+
+.g_ .carrinho .carrinho-interno-ajax .carrinho-interno .carrinho-rodape .col .offset-md-1 .atendimento-ml li:first-child { 
+    display: none; 
+    
+}
+.g_ .carrinho .carrinho-interno-ajax .carrinho-interno .carrinho-rodape .atendimento-ml { 
+    display: none; 
+}
+
+#rodape .institucional ul {
+    margin: none;
+}
+
+.g_ #rodape .institucional ul li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sociais li {
+    margin-right: 12px;
+    padding: 12px;
+    width: 18px;
+    height: 18px;
+    border: 0px solid #973631;
+    border-radius: 100%;
+}
+
+.offset-md-1 {
+    margin-left: 0%;
+}
+
+
+/*imagem mobile*/
+
+@media (max-width: 767px) {
+body {
+    margin-top: 3rem;
+}
+
+.g_ .produto .principal {
+    padding: 0 1px;
+    margin-top: 2rem;
+}
+
+.g_ .produto .conteiner-imagem, .g_ .produto .produto-thumbs {
+    border-radius: 0;
+    margin-top: 2rem;
+}
+.g_ .produto .principal {
+    padding: 0 1px;
+    margin-top: 0;
+}
+
+#rodape .institucional ul {
+    margin-bottom: 0px;
+}
+
+.offset-md-1 {
+    margin-left: 0;
+}
+    
+}

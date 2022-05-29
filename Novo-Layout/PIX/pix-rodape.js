@@ -1,0 +1,1 @@
+$(function(){ $(".gateways-rodape .col-md-3:last-of-type").append('<img src="https://cdn.awsli.com.br/1343/1343917/arquivos/pix-anuncio.png" style="margin: 0 0 0 20px;" alt="Pague com PagSeguro - Pix">') });
